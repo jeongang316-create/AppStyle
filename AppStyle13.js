@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Text, View, Image, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 
-import BannerImage from './assets/banner.png';
+const BANNER_IMAGE = 'https://cdn.jsdelivr.net/gh/jeongang316-create/AppStyle@master/assets/banner.png';
 
 const categories = ['전체', '한식', '카페', '일식', '중식'];
 
@@ -78,7 +78,7 @@ export default function AppStyle13() {
 
         <View style={styles.banner}>
           <Image
-            source={BannerImage}
+            source={{ uri: BANNER_IMAGE }}
             style={styles.bannerImage} />
           <View style={styles.bannerOverlay}>
             <Text style={styles.bannerTitle}>맛있는 음식으로 행복한 하루 되세요</Text>
