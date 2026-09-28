@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Text, View, Image, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 
+import BannerImage from './assets/banner.png';
+
 const categories = ['전체', '한식', '카페', '일식', '중식'];
 
 const menuByCategory = {
@@ -76,10 +78,10 @@ export default function AppStyle13() {
 
         <View style={styles.banner}>
           <Image
-            source={{ uri: 'https://picsum.photos/id/1015/800/500' }}
+            source={BannerImage}
             style={styles.bannerImage} />
           <View style={styles.bannerOverlay}>
-            <Text style={styles.bannerTitle}>가을 신메뉴 출시</Text>
+            <Text style={styles.bannerTitle}>맛있는 음식으로 행복한 하루 되세요</Text>
             <View style={styles.bannerButton}>
               <Text style={styles.bannerButtonText}>자세히 보기</Text>
             </View>
@@ -169,11 +171,11 @@ const styles = StyleSheet.create({
   banner: { margin: 16, borderRadius: 12, overflow: 'hidden' },
   bannerImage: { width: '100%', height: 180 },
   bannerOverlay: {
-    position: 'absolute', bottom: 16, left: 16,
+    position: 'absolute', bottom: 16, left: 16, right: 16,
   },
   bannerTitle: {
-    color: '#ffffff', fontSize: 20, fontWeight: 'bold',
-    marginBottom: 10, textShadowColor: 'rgba(0,0,0,0.5)', textShadowRadius: 4,
+    color: '#5c4b57', fontSize: 19, fontWeight: 'bold',
+    marginBottom: 10,
   },
   bannerButton: {
     backgroundColor: '#ffffff', borderRadius: 20,
