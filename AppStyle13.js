@@ -22,8 +22,8 @@ const menuByCategory = {
   일식: [
     { id: 'j1', title: '오늘의 초밥', price: '10,000원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/330px-Sushi_platter.jpg' },
     { id: 'j2', title: '연어초밥', price: '8,500원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Salmon_Nigiri_Sushi%2C_2008.jpg/500px-Salmon_Nigiri_Sushi%2C_2008.jpg' },
-    { id: 'j3', title: '광어초밥', price: '8,500원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Paralichthys-olivaceus-Federal-Way-3583.jpg/330px-Paralichthys-olivaceus-Federal-Way-3583.jpg' },
-    { id: 'j4', title: '와규초밥', price: '9,000원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Wagyu.jpg/330px-Wagyu.jpg' },
+    { id: 'j3', title: '광어초밥', price: '8,500원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sashimi_from_Tsukiji-_hirame%2C_sanma%2C_aji%2C_salmon.jpg/500px-Sashimi_from_Tsukiji-_hirame%2C_sanma%2C_aji%2C_salmon.jpg' },
+    { id: 'j4', title: '와규초밥', price: '9,000원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Aburi_Sushi_-_Jugemu_and_Shimbashi_AUD18_small_%283722959303%29.jpg/500px-Aburi_Sushi_-_Jugemu_and_Shimbashi_AUD18_small_%283722959303%29.jpg' },
     { id: 'j5', title: '우동', price: '5,000원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kakeudon.jpg/330px-Kakeudon.jpg' },
     { id: 'j6', title: '돈코츠라멘', price: '5,500원', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/330px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg' },
   ],
